@@ -1,0 +1,42 @@
+input:not([type=submit]), textarea {
+	min-width: 50%;
+}
+input[type=numnber] {
+  max-width: 150px;
+}
+input[name$="-ordering"] {
+  max-width: 60px;
+}
+
+textarea {
+  height: 60px;
+  resize: vertical;
+}
+.jcrop-holder img {
+	max-width: none;
+}
+input[type="checkbox"] {
+	min-width: 0;
+}
+select[multiple] {
+	min-height: 120px;
+}
+
+.nav-quick-search .submit {
+  min-width: 20px;
+}
+
+/*VIRTUAL DELETION */
+#result_list tr.is-deleted {
+    opacity: .55;
+}
+#result_list tr.is-archived {
+    font-style: italic;
+}
+
+.html-content p:last-child,
+.html-content div:last-child,
+.html-content ul:last-child,
+.html-content ol:last-child{
+  margin-bottom: 0;
+}

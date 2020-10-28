@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-31 13:40+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/users/models.py:15
+msgid "first name"
+msgstr "First name"
+
+#: project/settings/__init__.py:37
+msgid "Russian"
+msgstr "Russian"
+
+#: project/settings/__init__.py:38
+msgid "English"
+msgstr "English"
+
+#: snippets/admin/actions.py:10
+msgid "Активировать"
+msgstr "Activate"
+
+#: snippets/admin/actions.py:17
+msgid "Деактивировать"
+msgstr "Deactivate"
+
+#: snippets/admin/actions.py:24
+msgid "В черновики"
+msgstr "To drafts"
+
+#: snippets/admin/actions.py:31
+msgid "Скрыть"
+msgstr "Hide"
+
+#: snippets/admin/actions.py:38
+msgid "Опубликовать"
+msgstr "Publish"
+
+#: snippets/admin/admin.py:85
+msgid "Основное"
+msgstr "General"
+
+#: snippets/admin/admin.py:86
+msgid "SEO"
+msgstr "SEO"
+
+#: snippets/admin/filters.py:19
+msgid "All"
+msgstr "All"
+
+#: snippets/admin/filters.py:20
+msgid "Yes"
+msgstr "Yes"
+
+#: snippets/admin/filters.py:21
+msgid "No"
+msgstr "No"
+
+#: snippets/api/decorators.py:16
+msgid "Вы уже вошли в систему, регистрация невозможна"
+msgstr "You are already logged in, registration is not possible"
+
+#: snippets/enums.py:14
+msgid "Не оплачено"
+msgstr "Not paid"
+
+#: snippets/enums.py:15
+msgid "Оплачено"
+msgstr "Paid"
+
+#: snippets/enums.py:30 snippets/models/enumerates.py:48
+msgid "Черновик"
+msgstr "Draft"
+
+#: snippets/enums.py:31 snippets/models/enumerates.py:49
+msgid "Публичный"
+msgstr "Public"
+
+#: snippets/enums.py:32 snippets/models/enumerates.py:50
+msgid "Скрытый"
+msgstr "Hidden"
+
+#: snippets/models.py:13 snippets/models/abstract.py:191
+msgid "Заголовок"
+msgstr "Title"
+
+#: snippets/models.py:26 snippets/models/payments.py:9
+msgid "Total amount"
+msgstr "Total amount"
+
+#: snippets/models.py:30 snippets/models/payments.py:13
+msgid "Payment gateway ID"
+msgstr "Payment gateway ID"
+
+#: snippets/models.py:33 snippets/models/payments.py:16
+msgid "Received amount"
+msgstr "Received amount"
+
+#: snippets/models.py:36 snippets/models/payments.py:19
+msgid "Payment status"
+msgstr "Payment status"
+
+#: snippets/models.py:41 snippets/models/payments.py:24
+msgid "Payment error code"
+msgstr "Payment error code"
+
+#: snippets/models.py:44 snippets/models/payments.py:27
+msgid "Payment error text"
+msgstr "Payment error text"
+
+#: snippets/models/abstract.py:12
+msgid "Создано"
+msgstr "Created"
+
+#: snippets/models/abstract.py:13
+msgid "Обновлено"
+msgstr "Updated"
+
+#: snippets/models/abstract.py:24
+msgid "Активен"
+msgstr "Active"
+
+#: snippets/models/abstract.py:171
+msgid "Порядок"
+msgstr "Ordering"
+
+#: snippets/models/abstract.py:173
+msgid "Статус"
+msgstr "Status"
+
+#: snippets/models/enumerates.py:31
+msgid "Поле \"name\" должно быть строкой"
+msgstr "The \"name\" field must be a string"
+
+#: snippets/models/enumerates.py:34
+msgid "Поле \"name\" не должно быть пустым"
+msgstr "\"Name\" field must not be empty"
+
+#: snippets/models/image.py:37
+msgid "Изображение"
+msgstr "Image"
+
+#: snippets/models/seo.py:8
+msgid "META заголовок (title)"
+msgstr "META title"
+
+#: snippets/models/seo.py:11
+msgid "META описание (description)"
+msgstr "META description"

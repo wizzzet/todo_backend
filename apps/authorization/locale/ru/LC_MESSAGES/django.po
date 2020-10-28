@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-13 13:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+#: apps/authorization/api/resources.py:79
+msgid ""
+"Registration completed successfully. The administrator will review your "
+"request and give you access."
+msgstr ""
+"Регистрация прошла успешно. Администратор рассмотрит ваш запрос и предоставит вам доступ."
+
+#: apps/authorization/api/resources.py:114
+msgid "Password Reset Request"
+msgstr "Запрос на сброс пароля"
+
+#: apps/authorization/api/resources.py:125
+msgid "Reset link has been sent to your email."
+msgstr "Ссылка на сброс была отправлена на ваш электронный адрес."
+
+#: apps/authorization/api/resources.py:185
+#, python-format
+msgid "New password on the site %s"
+msgstr "Новый пароль на сайте %s"
+
+#: apps/authorization/api/serializers.py:28
+msgid "No access to CRM."
+msgstr "Нет доступа к CRM."
+
+#: apps/authorization/api/serializers.py:49
+msgid "The specified email is already in use."
+msgstr "Указанный адрес электронной почты уже используется."
+
+#: apps/authorization/api/serializers.py:81
+msgid "The specified email could not be found."
+msgstr "Указанный адрес электронной почты не найден."
+
+#: apps/authorization/api/serializers.py:97
+msgid "Recovery token length does not match."
+msgstr "Длина токена не совпадает."
+
+#: apps/authorization/api/serializers.py:103
+msgid "The recovery token has expired."
+msgstr "Срок действия токена для восстановления истек."
+
+#: apps/authorization/api/serializers.py:110
+msgid ""
+"The specified password recovery token was not found. It may be outdated or "
+"has already been used before."
+msgstr ""
+"Указанный токен для восстановления пароля не найден. "
+"Он может быть устаревшим или уже использовался ранее."
+
+#: apps/authorization/api/serializers.py:120
+msgid "The specified passwords do not match."
+msgstr "Указанные пароли не совпадают."
+
+#: apps/authorization/api/serializers.py:137
+msgid "The recovery code has expired."
+msgstr "Срок действия кода восстановления истек."
+
+#: apps/authorization/api/serializers.py:142
+msgid ""
+"The specified password recovery code was not found. <br>It may be outdated "
+"or has already been used before."
+msgstr ""
+"Указанный код восстановления пароля не найден.<br>"
+"Он может быть устаревшим или уже использовался ранее."
+
+#: apps/authorization/api/service.py:20
+msgid "New user"
+msgstr "Новый пользователь"
+
+#: apps/authorization/api/service.py:27
+#, python-format
+msgid "User registered on %s"
+msgstr "Пользователь зарегистрирован на %s"
+
+#: apps/authorization/api/service.py:37
+msgid ""
+"Registration was successful, but could not send a message with a password."
+msgstr ""
+"Регистрация прошла успешно, но не удалось отправить сообщение с паролем."
+
+#: apps/authorization/apps.py:7
+msgid "Authorization"
+msgstr "Авторизация"

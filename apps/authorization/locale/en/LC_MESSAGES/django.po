@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-24 01:53+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/authorization/api/resources.py:89
+msgid "New user"
+msgstr "New user"
+
+#: apps/authorization/api/resources.py:96
+#, python-format
+msgid "User registered on %s"
+msgstr "User registered on %s"
+
+#: apps/authorization/api/resources.py:107
+msgid ""
+"Registration was successful, but could not send a message with a password."
+msgstr ""
+"Registration was successful, but could not send a message with a password."
+
+#: apps/authorization/api/resources.py:151
+#, python-format
+msgid "Password recovery on the site %s"
+msgstr "Password recovery on the site %s"
+
+#: apps/authorization/api/resources.py:162
+msgid "Reset link has been sent to your email"
+msgstr "Reset link has been sent to your email."
+
+#: apps/authorization/api/resources.py:222
+msgid "New password on the site"
+msgstr "New password on the site"
+
+#: apps/authorization/api/serializers.py:41
+msgid "The specified email is already in use."
+msgstr "The specified email is already in use."
+
+#: apps/authorization/api/serializers.py:73
+msgid "The specified email could not be found."
+msgstr "The specified email could not be found."
+
+#: apps/authorization/api/serializers.py:89
+msgid "Recovery token length does not match."
+msgstr "Recovery token length does not match."
+
+#: apps/authorization/api/serializers.py:95
+msgid "The recovery token has expired."
+msgstr "The recovery token has expired."
+
+#: apps/authorization/api/serializers.py:102
+msgid ""
+"The specified password recovery token was not found. It may be outdated or "
+"has already been used before."
+msgstr ""
+"The specified password recovery token was not found. It may be outdated or "
+"has already been used before."
+
+#: apps/authorization/api/serializers.py:112
+msgid "The specified passwords do not match."
+msgstr "The specified passwords do not match."
+
+#: apps/authorization/api/serializers.py:129
+msgid "The recovery code has expired."
+msgstr "The recovery code has expired."
+
+#: apps/authorization/api/serializers.py:134
+msgid ""
+"The specified password recovery code was not found. <br>It may be outdated "
+"or has already been used before."
+msgstr ""
+"The specified password recovery code was not found. <br>It may be outdated "
+"or has already been used before."
+
+#: apps/authorization/apps.py:7
+msgid "Authorization"
+msgstr "Authorization"

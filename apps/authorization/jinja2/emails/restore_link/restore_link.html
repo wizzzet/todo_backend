@@ -1,0 +1,7 @@
+<p>You asked us to send you a password reset link for TODOO app</p>
+
+<p>
+  {%- set url = site_url + '/auth/reset-password/' + salt %}
+  Please follow the link to reset your password:
+  <a href="{{ url }}">{{ url }}</a>
+</p>
